@@ -33,6 +33,7 @@ img {
 
 .before-image {
   width: 50%;
+  overflow: hidden;
 }
 
 #slider {
