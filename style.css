@@ -18,9 +18,11 @@ body {
   position: relative;
   border-radius: 0.3125rem;
   border: 8px solid #fff;
+  overflow: hidden;
 }
 
-.before-image, .after-image {
+.before-image,
+.after-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -45,4 +47,20 @@ img {
   appearance: none;
   -webkit-appearance: none;
   background-color: transparent;
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 6px;
+  height: 100vh;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#slider::-moz-range-thumb {
+  width: 6px;
+  height: 100vh;
+  background-color: #fff;
+  cursor: pointer;
 }
