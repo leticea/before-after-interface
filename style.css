@@ -46,6 +46,7 @@ img {
   appearance: none;
   -webkit-appearance: none;
   background-color: transparent;
+  z-index: 10;
 }
 
 #slider::-webkit-slider-thumb {
@@ -61,5 +62,13 @@ img {
   width: 6px;
   height: 100vh;
   background-color: #fff;
+  cursor: pointer;
+}
+
+#dragger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   cursor: pointer;
 }

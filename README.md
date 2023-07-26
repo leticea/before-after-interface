@@ -19,6 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 💻 Projeto
 
@@ -177,6 +178,12 @@ Projetos #boraCodar da [Rocketseat](https://boracodar.dev/).
       <td>Page Not Found</td>
       <td>12/07/23</td>
       <td><a href="https://github.com/leticea/page-not-found">🔗</a></td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>AI Platform Interface</td>
+      <td>19/07/23</td>
+      <td><a href="https://github.com/leticea/AI-platform">🔗</a></td>
     </tr>
   </tbody>
 </table>
