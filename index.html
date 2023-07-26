@@ -8,12 +8,13 @@
   </head>
   <body>
     <div class="image-container">
-      <div class="before-image">
-        <img src="./assets/before.jpg" alt="Imagem antes da edição" />
-      </div>
-      <div class="after-image">
+      <picture class="after-image">
         <img src="./assets/after.jpg" alt="Imagem depois da edição" />
-      </div>
+      </picture>
+      <picture class="before-image">
+        <img src="./assets/before.jpg" alt="Imagem antes da edição" />
+      </picture>
+
       <input type="range" id="slider" min="0" max="100" value="50" />
     </div>
   </body>
